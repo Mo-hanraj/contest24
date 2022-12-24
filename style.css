@@ -1,0 +1,120 @@
+.navbar {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    height: 80px;
+    width: auto;
+}
+
+.nav-left {
+    width: 10%;
+    padding-left: 2px;
+    text-align: left;
+}
+
+.header-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 13px;
+    padding-left: 13px;
+
+}
+
+.nav-right {
+    width: 90%;
+    text-align:right;
+    padding-top: 16px;
+    padding-right: 14px;
+
+}
+
+.home-button {
+    background: black;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.login-button {
+    background: black;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    padding: 7px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.signup-button {
+    background: rgb(220, 171, 11);
+    color: black;
+
+    border-radius: 5px;
+    padding: 8px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.content {
+    /* position: absolute; */
+    width: 100%;
+    top: 100px;
+}
+
+.cards {
+    display: inline-flex;
+    padding-left: 7px;
+}
+
+.footer {
+    position: absolute;
+    display: flex;
+    top: 2600px;
+    justify-content: space-between;
+    background: rgb(22, 20, 20);
+}
+
+.footer-right {
+    width: 30%;
+    padding-right: 40px;
+    padding-top: 40px;
+    color: aliceblue;
+}
+
+.footer-center {
+    width: 30%;
+    padding-right: 20px;
+    padding-top: 30px;
+    color: aliceblue;
+
+}
+
+.footer-left {
+
+    display: flex;
+    width: 30%;
+    padding-right: 20px;
+    padding-top: 180px;
+    color: aliceblue;
+
+
+}
+
+.cards-container {
+    width: 100%;
+    padding-left: 7px;
+    padding-top: 7px;
+}
